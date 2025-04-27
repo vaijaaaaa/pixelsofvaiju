@@ -266,6 +266,17 @@ export const DATA = {
         "https://s3-h2s-v2.s3.ap-south-1.amazonaws.com/2024-02-17T17%3A06%3A43.180Z-GDSC%20FEST%E2%80%9924%20%2812%29.png",
       links: [],
     },
+    {
+      title: "GDSC Hackathon",
+      dates: "April 25th - 26th, 2024",
+      location: "Bengaluru, Karnataka",
+      description:
+        "Participated in a hackathon where I solved 10 real-world problems using Java, focusing on efficiency, scalability, and clean code practices across domains like healthcare, automation, and data handling..",
+      icon: "public",
+      image:
+        "https://i.pinimg.com/736x/95/e9/d8/95e9d8383e89e22f39f49efc9f217e70.jpg",
+      links: [],
+    },
   ],
  
   
