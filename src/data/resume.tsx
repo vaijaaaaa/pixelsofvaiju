@@ -267,11 +267,11 @@ export const DATA = {
       links: [],
     },
     {
-      title: "GDSC Hackathon",
+      title: "Icube Codeathon",
       dates: "April 25th - 26th, 2024",
       location: "Bengaluru, Karnataka",
       description:
-        "Participated in a hackathon where I solved 10 real-world problems using Java, focusing on efficiency, scalability, and clean code practices across domains like healthcare, automation, and data handling..",
+       "Won 3rd prize at the Codeathon event during iCube 2025 by solving LeetCode-style problems with a focus on clean and efficient Java solutions.",
       icon: "public",
       image:
         "https://i.pinimg.com/736x/95/e9/d8/95e9d8383e89e22f39f49efc9f217e70.jpg",
