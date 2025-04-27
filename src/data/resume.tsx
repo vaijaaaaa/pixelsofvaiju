@@ -140,28 +140,26 @@ export const DATA = {
       image: "/gossipproject.png",
     },
     {
-      title: "Google Meet Extension",
+      title: "Quick Note",
       href: "https://magicui.design",
       dates: "June 2024 - July 2024",
       active: true,
       description:
-        " I built a Chrome extension that lets users selectively mute specific meetings without affecting others. Perfect for students and professionals attending overlapping sessions, this tool gives full audio control across tabs — improving focus and reducing distractions.",
+         "Developed Quick Note, a Next.js app that allows users to easily create, organize, and access their notes in a sleek and efficient interface. With features like quick search and seamless note categorization, it’s perfect for students and professionals looking to stay organized.",
       technologies: [
-        "JavaScript",
-        "Chrome Extension APIs",
-        "HTML/CSS",
-        "Manifest v3",
-        "Chrome Storage API",
-        "React",
+        "Next.js",
+        "TypeScript",
+        "Shadcn UI",
+        "TailwindCSS", 
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/vaijaaaaa/Google-Meet-Links-Mute-Chrome-Extension",
+          href: "https://github.com/vaijaaaaa/QuickNote",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/astra.png",
+      image: "/note.png",
      
     },
     {
