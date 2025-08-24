@@ -1,6 +1,7 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { title } from "process";
+import { start } from "repl";
 
 export const DATA = {
   name: "Vaiju Patil",
@@ -70,10 +71,23 @@ export const DATA = {
     },
   },
 
+  experience :[
+    {
+      company : "InfoTechBrains",
+      badges:[],
+      location:"Remote",
+      title:"Software Engineer Intern",
+      logoUrl:"/infotechbrains_logo.jpeg",
+      start:"August 2025",
+      end : "Present",
+      description:"Building future-ready SaaS products"
+    },
+  ],
+
+
   work: [
     {
       company: "Google Developer Group",
-      href: "https://atomic.finance",
       badges: [],
       location: "Remote",
       title: "UI/UX Designer",
@@ -86,7 +100,6 @@ export const DATA = {
     {
       company: "Microsoft Learn Student Ambassador",
       badges: [],
-      href: "https://shopify.com",
       location: "Remote",
       title: "Secretary",
       logoUrl: "/mlsa.png",
