@@ -6,9 +6,8 @@ import { start } from "repl";
 export const DATA = {
   name: "Vaiju Patil",
   initials: "DV",
-  url: "https://dillion.io",
+  url: "https://vaijutech.vercel.app/",
   location: "Bengaluru, KA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Software Engineer . I love building things and helping people.",
   summary:
@@ -61,6 +60,16 @@ export const DATA = {
 
         navbar: true,
       },
+
+      // leetcode:{
+      //     name : "Leetcode",
+      //     url:"https://leetcode.com/u/vaijuwalker111/",
+      //     icon : Icons.leetcode,
+
+      //     navbar : true
+      // },
+
+
       email: {
         name: "Send Email",
         url: "#",
@@ -153,8 +162,65 @@ export const DATA = {
       image: "/gossipproject.png",
     },
     {
+      title: "Response AI",
+      href: "https://response-smoky.vercel.app/",
+      dates: "October 2025 - November 2025",
+      active: true,
+      description:
+         "Developed Response AI, a Next.js-based web app that transforms AI-generated text into natural, human-like writing. It helps users refine robotic or overly formal AI responses into authentic, conversational tones — ideal for job applications, online discussions, and content creation",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "TailwindCSS", 
+      ],
+      links: [
+         {
+          type: "Website",
+          href: "https://response-smoky.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/vaijaaaaa/Response",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/response.png",
+     
+    },
+    {
+      title: "Eco-Sort",
+      href: "https://ecosortbin.vercel.app/",
+      dates: "October 2025 - November 2025",
+      active: true,
+      description:
+         "An intelligent waste management system designed to automatically segregate biodegradable and non-biodegradable waste using AI-powered sensors and image recognition. Built with a modern Next.js dashboard for real-time monitoring, analytics, and user management, Bio Bin promotes cleaner environments and efficient recycling",
+      technologies: [
+        "React",
+        "Vite",
+        "TypeScript",
+        "Prisma",
+        "TailwindCSS", 
+      ],
+      links: [
+         {
+          type: "Website",
+          href: "https://ecosortbin.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/vaijaaaaa/Eco-Sort",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ecosort.png",
+     
+    },
+    {
       title: "Quick Note",
-      href: "https://magicui.design",
+      href: "https://quicknote-five.vercel.app/",
       dates: "June 2024 - July 2024",
       active: true,
       description:
@@ -166,6 +232,11 @@ export const DATA = {
         "TailwindCSS", 
       ],
       links: [
+         {
+          type: "Website",
+          href: "https://quicknote-five.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/vaijaaaaa/QuickNote",
@@ -177,7 +248,7 @@ export const DATA = {
     },
     {
       title: "Space",
-      href: "https://llm.report",
+      //href: "https://llm.report",
       dates: "Feb 2025 - April 2025",
       active: true,
       description:
@@ -202,7 +273,7 @@ export const DATA = {
     },
     {
       title: "Jammify",
-      href: "https://automatic.chat",
+      //href: "https://automatic.chat",
       dates: "April 2023 - March 2024",
       active: true,
       description:
