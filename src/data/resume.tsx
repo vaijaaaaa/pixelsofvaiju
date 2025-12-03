@@ -130,6 +130,67 @@ export const DATA = {
     },
   ],
   projects: [
+
+     {
+      title: "Tru-Lens",
+      href: "https://truelens-lovat.vercel.app/",
+      dates: "October 2025 - November 2025",
+      active: true,
+      description:
+         "AI-Powered Fake News and Political Bias Detection.A browser extension that analyzes news articles in real-time to detect misinformation, identify political bias, and verify claims against trusted fact-checking sources.",
+      technologies: [
+        "React.js",
+        "JavaScript",
+        "Python",
+        "Node.js",
+        "ML",
+        "TailwindCSS", 
+      ],
+      links: [
+         {
+          type: "Website",
+          href: "https://truelens-lovat.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/vaijaaaaa/TrueLens",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/trulenss.png",
+     
+    },
+    {
+      title: "Eco-Sort",
+      href: "https://ecosortbin.vercel.app/",
+      dates: "October 2025 - November 2025",
+      active: true,
+      description:
+         "An intelligent waste management system designed to automatically segregate biodegradable and non-biodegradable waste using AI-powered sensors and image recognition. Built with a modern Next.js dashboard for real-time monitoring, analytics, and user management, Bio Bin promotes cleaner environments and efficient recycling",
+      technologies: [
+        "React",
+        "Vite",
+        "TypeScript",
+        "Prisma",
+        "TailwindCSS", 
+      ],
+      links: [
+         {
+          type: "Website",
+          href: "https://ecosortbin.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/vaijaaaaa/Eco-Sort",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ecosort.png",
+     
+    },
+    ,
     {
       title: "Gossip",
       href: "https://chatcollect.com",
@@ -189,35 +250,8 @@ export const DATA = {
       image: "/response.png",
      
     },
-    {
-      title: "Eco-Sort",
-      href: "https://ecosortbin.vercel.app/",
-      dates: "October 2025 - November 2025",
-      active: true,
-      description:
-         "An intelligent waste management system designed to automatically segregate biodegradable and non-biodegradable waste using AI-powered sensors and image recognition. Built with a modern Next.js dashboard for real-time monitoring, analytics, and user management, Bio Bin promotes cleaner environments and efficient recycling",
-      technologies: [
-        "React",
-        "Vite",
-        "TypeScript",
-        "Prisma",
-        "TailwindCSS", 
-      ],
-      links: [
-         {
-          type: "Website",
-          href: "https://ecosortbin.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/vaijaaaaa/Eco-Sort",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/ecosort.png",
-     
-    },
+   
+    
     {
       title: "Quick Note",
       href: "https://quicknote-five.vercel.app/",
@@ -271,36 +305,36 @@ export const DATA = {
       ],
       image: "/Spaceproject.png",
     },
-    {
-      title: "Jammify",
-      //href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed a full-stack music streaming app — Jammify, a Spotify clone with real-time playback, custom playlists, and seamless UI powered by modern web tech.",
-        technologies: [
-          "Next.js",
-          "TypeScript",
-          "TailwindCSS",
-          "Prisma",
-          "PostgreSQL",
-          "Shadcn UI",
-          "Zustand",
-          "Stripe",
-          "NextAuth.js",
-          "UploadThing",
-          "Clerk",
-          "React Hook Form",
-        ], 
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/vaijaaaaa/Jammify",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/jammifylogo.png",
-    },
+    // {
+    //   title: "Jammify",
+    //   //href: "https://automatic.chat",
+    //   dates: "April 2023 - March 2024",
+    //   active: true,
+    //   description:
+    //     "Developed a full-stack music streaming app — Jammify, a Spotify clone with real-time playback, custom playlists, and seamless UI powered by modern web tech.",
+    //     technologies: [
+    //       "Next.js",
+    //       "TypeScript",
+    //       "TailwindCSS",
+    //       "Prisma",
+    //       "PostgreSQL",
+    //       "Shadcn UI",
+    //       "Zustand",
+    //       "Stripe",
+    //       "NextAuth.js",
+    //       "UploadThing",
+    //       "Clerk",
+    //       "React Hook Form",
+    //     ], 
+    //   links: [
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/vaijaaaaa/Jammify",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/jammifylogo.png",
+    // },
   ],
   hackathons: [
     {
