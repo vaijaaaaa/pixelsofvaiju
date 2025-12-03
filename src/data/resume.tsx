@@ -190,7 +190,6 @@ export const DATA = {
       image: "/ecosort.png",
      
     },
-    ,
     {
       title: "Gossip",
       href: "https://chatcollect.com",
