@@ -101,8 +101,8 @@ export const DATA = {
       location: "Remote",
       title: "UI/UX Designer",
       logoUrl: "/gdg.png",
-      start: "May 2024",
-      end: "Till now",
+      start: "Jan 2024",
+      end: "Jun 2025",
       description:
         "Designed and implemented UI/UX systems for Google Developer Group (GDG) events and platforms, focusing on user-centered design principles and accessibility. Created responsive, high-fidelity mockups and design systems using Figma. Collaborated with developers to ensure pixel-perfect implementation across web and mobile. Delivered branding and visual assets that elevated community engagement and event experience.",
     },
@@ -112,8 +112,8 @@ export const DATA = {
       location: "Remote",
       title: "Secretary",
       logoUrl: "/mlsa.png",
-      start: "January 2024",
-      end: "Till now",
+      start: "May 2024",
+      end: "May 2025",
       description:
         "Served as the Secretary of the Microsoft Learn Student Ambassadors (MLSA) chapter, managing communication, coordination, and event logistics for the community. Maintained detailed documentation of meetings, streamlined collaboration between core teams, and ensured timely execution of initiatives. Played a key role in planning and organizing workshops, hackathons, and outreach programs to grow community engagement and impact.",
     },
