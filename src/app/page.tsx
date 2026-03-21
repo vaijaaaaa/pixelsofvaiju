@@ -30,6 +30,23 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <BlurFade delay={BLUR_FADE_DELAY * 1.5}>
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1 pt-1 text-sm text-muted-foreground">
+                  <Link
+                    href={`mailto:${DATA.contact.email}`}
+                    className="transition-colors hover:text-foreground"
+                  >
+                    {DATA.contact.email}
+                  </Link>
+                  <span className="hidden sm:inline">•</span>
+                  <Link
+                    href={`tel:${DATA.contact.tel.replace(/\s+/g, "")}`}
+                    className="transition-colors hover:text-foreground"
+                  >
+                    {DATA.contact.tel}
+                  </Link>
+                </div>
+              </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">

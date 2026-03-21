@@ -87,8 +87,8 @@ export const DATA = {
       location:"Remote",
       title:"Software Engineer Intern",
       logoUrl:"/infotechbrains_logo.jpeg",
-      start:"August 2025",
-      end : "Present",
+      start:"August 2025 ",
+      end : "January 2026",
       description:"Building future-ready SaaS products"
     },
   ],
