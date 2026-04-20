@@ -141,6 +141,34 @@ export const DATA = {
   projects: [
 
      {
+      title: "SQL-Bench",
+      href: "https://sql-bench.vercel.app/",
+      dates: "Jan 2026 - Feb 2026",
+      active: true,
+      description:
+         "SQLBench is a comprehensive platform designed for developers to practice and master SQL through real-world problems. It provides an interactive environment to write, execute, and test SQL queries against isolated database instances.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Redis",
+        "PostgreSQL", 
+      ],
+      links: [
+         {
+          type: "Website",
+          href: "https://sql-bench.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/vaijaaaaa/SQL-Bench",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/sqlbench.png",
+     
+    },
+     {
       title: "Tru-Lens",
       href: "https://truelens-lovat.vercel.app/",
       dates: "October 2025 - November 2025",
@@ -256,36 +284,6 @@ export const DATA = {
         },
       ],
       image: "/response.png",
-     
-    },
-   
-    
-    {
-      title: "Quick Note",
-      href: "https://quicknote-five.vercel.app/",
-      dates: "June 2024 - July 2024",
-      active: true,
-      description:
-         "Developed Quick Note, a Next.js app that allows users to easily create, organize, and access their notes in a sleek and efficient interface. With features like quick search and seamless note categorization, it’s perfect for students and professionals looking to stay organized.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "Shadcn UI",
-        "TailwindCSS", 
-      ],
-      links: [
-         {
-          type: "Website",
-          href: "https://quicknote-five.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/vaijaaaaa/QuickNote",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/note.png",
      
     },
     {
