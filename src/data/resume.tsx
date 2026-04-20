@@ -83,6 +83,7 @@ export const DATA = {
   experience :[
     {
       company : "BroadWing Labs",
+      badges: [],
       location:"Bengaluru,KA",
       title : "Software Engineer Intern",
       logoUrl:"/broadwinglabs.jpg",
