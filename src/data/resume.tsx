@@ -82,6 +82,15 @@ export const DATA = {
 
   experience :[
     {
+      company : "BroadWing Labs",
+      location:"Bengaluru,KA",
+      title : "Software Engineer Intern",
+      logoUrl:"/broadwinglabs.jpg",
+      start:"April 2026",
+      end :"Present",
+      description :"Shipping Softwares",
+    },
+    {
       company : "InfoTechBrains",
       badges:[],
       location:"Remote",
@@ -89,7 +98,7 @@ export const DATA = {
       logoUrl:"/infotechbrains_logo.jpeg",
       start:"August 2025 ",
       end : "January 2026",
-      description:"Building future-ready SaaS products"
+      description:"Maintained and enhanced Meetniox, a meeting and booking management platform built with Next.js, TypeScript, Prisma, and Node.js, adding new scheduling features and improving real-time collaboration. Developed a dynamic ERP printing module supporting custom product attributes and automated document layouts, reducing manual setup time by 60%"
     },
   ],
 
