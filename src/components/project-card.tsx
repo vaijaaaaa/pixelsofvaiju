@@ -48,6 +48,8 @@ export function ProjectCard({
       <Link
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
+        target={href ? "_blank" : undefined}
+        rel={href ? "noopener noreferrer" : undefined}
       >
         {image && (
           <Image

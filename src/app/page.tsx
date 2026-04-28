@@ -35,6 +35,8 @@ export default function Page() {
                 <div className="flex flex-wrap items-center gap-x-3 gap-y-1 pt-1 text-sm text-muted-foreground">
                   <Link
                     href={`mailto:${DATA.contact.email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="transition-colors hover:text-foreground"
                   >
                     {DATA.contact.email}
@@ -42,6 +44,8 @@ export default function Page() {
                   <span className="hidden sm:inline">•</span>
                   <Link
                     href={`tel:${DATA.contact.tel.replace(/\s+/g, "")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="transition-colors hover:text-foreground"
                   >
                     {DATA.contact.tel}
@@ -328,6 +332,8 @@ export default function Page() {
                 Want to chat? Just shoot me a dm{" "}
                 <Link
                   href={DATA.contact.social.X.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-500 hover:underline"
                 >
                   with a direct question on twitter

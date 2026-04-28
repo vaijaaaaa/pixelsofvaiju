@@ -22,6 +22,8 @@ export default function Navbar() {
               <TooltipTrigger asChild>
                 <Link
                   href={item.href}
+                  target={item.href.startsWith("/") ? "_self" : "_blank"}
+                  rel={item.href.startsWith("/") ? undefined : "noopener noreferrer"}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "size-12"
@@ -45,6 +47,8 @@ export default function Navbar() {
                 <TooltipTrigger asChild>
                   <Link
                     href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
                       "size-12"
