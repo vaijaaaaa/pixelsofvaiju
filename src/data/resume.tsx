@@ -5,7 +5,7 @@ import { start } from "repl";
 
 export const DATA = {
   name: "Vaiju Patil",
-  initials: "DV",
+  initials: "VP",
   url: "https://vaijutech.vercel.app/",
   location: "Bengaluru, KA",
   description:
@@ -290,7 +290,7 @@ export const DATA = {
     },
     {
       title: "Space",
-      //href: "https://llm.report",
+      href: "https://github.com/vaijaaaaa/Space",
       dates: "Feb 2025 - April 2025",
       active: true,
       description:
