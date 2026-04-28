@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, FileText } from "lucide-react";
 import { title } from "process";
 import { start } from "repl";
 
@@ -34,6 +34,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "https://drive.google.com/file/d/1-wERbBDSRoxd4ZukJ5nx6fL_MKevszAJ/view?usp=sharing", icon: FileText, label: "Resume" },
   ],
   contact: {
     email: "vaijuwalker111@gmail.com",
